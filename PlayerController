@@ -1,0 +1,49 @@
+using System.Collections;
+using UnityEngine;
+
+public class PlayerController : Monohaviour
+{
+    // public GameManager gameMG;
+    // public Inventory InvMG;
+
+    private Rigidbody2D rigid;
+    private Animator anime;
+    private SpriteRenderer spriter;
+    private GameObject scanObj;
+
+    private Vector3 dirVec;
+    private bool isHorizonMove;
+    public float Speed = 3;
+
+    private float h;
+    private float v;
+
+
+    private void Awake()
+    {}
+
+    private void Update()
+    {}
+
+    private void FixedUpdate()
+    {}
+
+    //무빙
+
+
+    //애니메이션
+
+    //공격
+
+    //인터렉션
+
+    //맵
+
+    //오브젝트 스캔
+
+    //아이템 먹기
+
+    //아이템 쓰기
+
+    //관련 js 연결?
+}
